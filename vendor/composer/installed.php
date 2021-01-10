@@ -1,12 +1,12 @@
 <?php return array (
   'root' => 
   array (
-    'pretty_version' => '8.x-dev',
-    'version' => '8.9999999.9999999.9999999-dev',
+    'pretty_version' => 'dev-master',
+    'version' => 'dev-master',
     'aliases' => 
     array (
     ),
-    'reference' => 'f9f39ee7ac5d6abfe7c717fd331055daa24255f2',
+    'reference' => 'e4ec6f55a18273c82ade56f0758b298109fe83e4',
     'name' => 'laravel/laravel',
   ),
   'versions' => 
@@ -28,6 +28,15 @@
       array (
       ),
       'reference' => '283a40c901101e66de7061bd359252c013dcc43c',
+    ),
+    'composer/package-versions-deprecated' => 
+    array (
+      'pretty_version' => '1.11.99.1',
+      'version' => '1.11.99.1',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '7413f0b55a051e89485c5cb9f765fe24bb02a7b6',
     ),
     'cordoval/hamcrest-php' => 
     array (
@@ -422,6 +431,24 @@
         0 => 'v8.21.0',
       ),
     ),
+    'jean85/pretty-package-versions' => 
+    array (
+      'pretty_version' => '1.5.1',
+      'version' => '1.5.1.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => 'a917488320c20057da87f67d0d40543dd9427f7a',
+    ),
+    'jenssegers/mongodb' => 
+    array (
+      'pretty_version' => 'v3.8.2',
+      'version' => '3.8.2.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => 'ae864fbca560419cca65b503c5da0a1315bf177a',
+    ),
     'kodova/hamcrest-php' => 
     array (
       'replaced' => 
@@ -440,12 +467,12 @@
     ),
     'laravel/laravel' => 
     array (
-      'pretty_version' => '8.x-dev',
-      'version' => '8.9999999.9999999.9999999-dev',
+      'pretty_version' => 'dev-master',
+      'version' => 'dev-master',
       'aliases' => 
       array (
       ),
-      'reference' => 'f9f39ee7ac5d6abfe7c717fd331055daa24255f2',
+      'reference' => 'e4ec6f55a18273c82ade56f0758b298109fe83e4',
     ),
     'laravel/sail' => 
     array (
@@ -500,6 +527,15 @@
       array (
       ),
       'reference' => '20cab678faed06fac225193be281ea0fddb43b93',
+    ),
+    'mongodb/mongodb' => 
+    array (
+      'pretty_version' => '1.8.0',
+      'version' => '1.8.0.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '953dbc19443aa9314c44b7217a16873347e6840d',
     ),
     'monolog/monolog' => 
     array (
@@ -556,6 +592,13 @@
       array (
       ),
       'reference' => '7c2b95589bf81e274e61e47f7672a1b2c3e06eaa',
+    ),
+    'ocramius/package-versions' => 
+    array (
+      'replaced' => 
+      array (
+        0 => '1.11.99',
+      ),
     ),
     'opis/closure' => 
     array (
@@ -760,8 +803,8 @@
     array (
       'provided' => 
       array (
-        0 => '1.0',
-        1 => '1.0.0',
+        0 => '1.0.0',
+        1 => '1.0',
       ),
     ),
     'psr/simple-cache' => 

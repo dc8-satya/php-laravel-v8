@@ -22,3 +22,4 @@ Route::get('phpinfo', function () {
 });
 
 Route::resource('articles','App\Http\Controllers\ArticleController');
+Route::resource('books','App\Http\Controllers\BookController');
