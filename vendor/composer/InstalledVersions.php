@@ -29,7 +29,7 @@ private static $installed = array (
     'aliases' => 
     array (
     ),
-    'reference' => '3bca95776e1d6448547952bb345ac619049d34a8',
+    'reference' => '65266a693b152ddaa2836d169fa2f7be28f2ccc8',
     'name' => 'laravel/laravel',
   ),
   'versions' => 
@@ -468,7 +468,7 @@ private static $installed = array (
       'aliases' => 
       array (
       ),
-      'reference' => '3bca95776e1d6448547952bb345ac619049d34a8',
+      'reference' => '65266a693b152ddaa2836d169fa2f7be28f2ccc8',
     ),
     'laravel/sail' => 
     array (
@@ -488,14 +488,14 @@ private static $installed = array (
       ),
       'reference' => '45884b526e10a88a1b179fa1a1a24d5468c668c2',
     ),
-    'laravel/ui' => 
+    'lcobucci/jwt' => 
     array (
-      'pretty_version' => 'v3.2.0',
-      'version' => '3.2.0.0',
+      'pretty_version' => '3.3.3',
+      'version' => '3.3.3.0',
       'aliases' => 
       array (
       ),
-      'reference' => 'a1f82c6283c8373ea1958b8a27c3d5c98cade351',
+      'reference' => 'c1123697f6a2ec29162b82f170dd4a491f524773',
     ),
     'league/commonmark' => 
     array (
@@ -561,6 +561,15 @@ private static $installed = array (
       array (
         0 => '1.10.2',
       ),
+    ),
+    'namshi/jose' => 
+    array (
+      'pretty_version' => '7.2.3',
+      'version' => '7.2.3.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '89a24d7eb3040e285dd5925fcad992378b82bcff',
     ),
     'nesbot/carbon' => 
     array (
@@ -1161,6 +1170,15 @@ private static $installed = array (
       ),
       'reference' => 'f377a3dd1fde44d37b9831d68dc8dea3ffd28e13',
     ),
+    'symfony/polyfill-php56' => 
+    array (
+      'pretty_version' => 'v1.20.0',
+      'version' => '1.20.0.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '54b8cd7e6c1643d78d011f3be89f3ef1f9f4c675',
+    ),
     'symfony/polyfill-php72' => 
     array (
       'pretty_version' => 'v1.22.0',
@@ -1275,6 +1293,15 @@ private static $installed = array (
       array (
       ),
       'reference' => 'b43b05cf43c1b6d849478965062b6ef73e223bb5',
+    ),
+    'tymon/jwt-auth' => 
+    array (
+      'pretty_version' => '1.0.2',
+      'version' => '1.0.2.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => 'e588cb719539366c0e2f6017f975379cb73e9680',
     ),
     'vlucas/phpdotenv' => 
     array (
