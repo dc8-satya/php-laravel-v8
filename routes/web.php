@@ -22,3 +22,7 @@ Route::get('phpinfo', function () {
 });
 
 Route::resource('articles','App\Http\Controllers\ArticleController');
+
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
