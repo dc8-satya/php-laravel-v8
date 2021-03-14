@@ -14,8 +14,23 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('theme1.index');
 });
+
+
+Route::get('/dashboard', function () {
+    return view('theme1.dashboard');
+});
+
+Route::get('/tables', function () {
+    return view('theme1.tables');
+});
+
+Route::get('/login', function () {
+    return view('theme1.login');
+});
+
+
 
 Route::get('phpinfo', function () {
     phpinfo();
